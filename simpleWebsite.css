@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px;
+    zoom: 125%;
+}
+
+h1 {
+    border-bottom: 4px solid green;
+    padding-bottom: 15px;
+}
+
+a,
+b {
+    color: green;
+}
+
+::selection {
+    background: lightgreen;
+}
