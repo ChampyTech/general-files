@@ -9,7 +9,8 @@ h1 {
     padding-bottom: 15px;
 }
 
-a, b {
+a,
+b {
     color: green;
 }
 
@@ -17,7 +18,8 @@ a, b {
     background: lightgreen;
 }
 
-ul, ol {
+ul,
+ol {
     margin-left: -20px;
 }
 
