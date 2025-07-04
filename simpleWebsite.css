@@ -33,6 +33,7 @@ li {
 
 .description {
     background: #d0ebd0;
+    margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
     border-left: 4px solid green;
