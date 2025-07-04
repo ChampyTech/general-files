@@ -14,15 +14,30 @@ b {
     color: green;
 }
 
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ::selection {
     background: lightgreen;
 }
 
-ul,
-ol {
-    margin-left: -20px;
-}
-
 li {
     margin: 10px 0;
+}
+
+.description {
+    background: #d0ebd0;
+    padding: 20px;
+    border-radius: 5px;
+    border-left: 4px solid green;
+}
+
+.greenUnderline {
+    border-bottom: 3px solid green;
 }
