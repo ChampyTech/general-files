@@ -41,3 +41,12 @@ li {
 .greenUnderline {
     border-bottom: 3px solid green;
 }
+
+.whatIsThis {
+    background: darkgreen;
+    color: white;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
