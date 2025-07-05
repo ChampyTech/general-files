@@ -58,3 +58,10 @@ li {
     margin-bottom: 10px;
     display: block;
 }
+
+@media (max-width: 620px) {
+    body {
+        margin: 15px;
+        zoom: 100%;
+    }
+}
