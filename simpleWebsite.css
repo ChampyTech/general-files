@@ -1,7 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 30px;
-    zoom: 125%;
+    zoom: 110%;
+    margin: 25px;
 }
 
 h1 {
@@ -43,7 +43,7 @@ li {
     border-bottom: 3px solid green;
 }
 
-.whatIsThis {
+.greenTag {
     background: darkgreen;
     color: white;
     padding: 4px;
