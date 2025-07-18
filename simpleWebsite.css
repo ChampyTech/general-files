@@ -59,6 +59,27 @@ li {
     display: block;
 }
 
+table {
+    border-collapse: collapse;
+    border: 1px solid green;
+}
+
+td,
+th {
+    text-align: left;
+    padding: 6px;
+}
+
+tr:nth-child(even) {
+    background-color: #bcecbc;
+}
+
+hr {
+    border: 0;
+    border-top: 3px solid green;
+    margin-top: 25px;
+}
+
 @media (max-width: 620px) {
     body {
         margin: 15px;
