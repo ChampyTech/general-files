@@ -127,3 +127,11 @@ button:disabled {
 .input-group button {
     border-radius: 0 5px 5px 0;
 }
+
+input {
+    padding: 10px;
+    border: 1px solid green;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
