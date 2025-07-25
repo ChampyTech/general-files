@@ -107,3 +107,23 @@ button:disabled {
     background-color: #a5d6a7;
     cursor: not-allowed;
 }
+
+.input-group {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+}
+
+.input-group input {
+    padding: 10px;
+    border: 1px solid green;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    font-size: 15px;
+    flex: 1;
+}
+
+.input-group button {
+    border-radius: 0 5px 5px 0;
+}
