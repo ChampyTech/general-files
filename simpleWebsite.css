@@ -13,18 +13,24 @@ h1 {
     padding-bottom: 15px;
 }
 
-a,
 b {
     color: green;
+}
+
+a {
+    color: black;
+    transition: 0.3s;
 }
 
 a:link,
 a:visited {
     text-decoration: none;
+    border-bottom: 2px solid green;
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: green;
 }
 
 ::selection {
