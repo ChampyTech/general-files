@@ -1,40 +1,67 @@
+/* Light mode */
+:root {
+    --color-bg: #ffffff;
+    --color-text: #24292f;
+    --color-blue: #0969da;
+    --color-border: #d0d7de;
+    --color-input-bg: #f6f8fa;
+    --color-button-bg: #0969da;
+    --color-button-text: #ffffff;
+    --color-hr: #d8dee4;
+    --color-selection-bg: #c8e1ff;
+    --color-selection-text: #000000;
+    --color-table-row-even: #ecf2f8;
+    --color-description-bg: #ddf4ff;
+}
+
+/* Dark mode */
+.dark {
+    --color-bg: #0d1117;
+    --color-text: #c9d1d9;
+    --color-blue: #58a6ff;
+    --color-border: #30363d;
+    --color-input-bg: #161b22;
+    --color-button-bg: #0969da;
+    --color-button-text: #ffffff;
+    --color-hr: #21262d;
+    --color-selection-bg: #1554b3;
+    --color-selection-text: #ffffff;
+    --color-table-row-even: #161b22;
+    --color-description-bg: #0d3b66;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    zoom: 110%;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: 'Segoe UI', sans-serif;
     margin: 25px;
+    zoom: 110%;
 }
 
 h1 {
-    border-bottom: 4px solid green;
+    border-bottom: 4px solid var(--color-blue);
     padding-bottom: 15px;
 }
 
-b {
-    color: green;
-}
-
 a {
-    color: black;
-    transition: 0.3s;
-}
-
-a:link,
-a:visited {
+    color: var(--color-text);
     text-decoration: none;
-    border-bottom: 2px solid green;
+    border-bottom: 2px solid var(--color-blue);
+    transition: 0.3s;
 }
 
 a:hover {
     text-decoration: none;
-    color: green;
+    color: var(--color-blue);
 }
 
 ::selection {
-    background: lightgreen;
+    background: var(--color-selection-bg);
+    color: var(--color-selection-text);
 }
 
 li {
@@ -42,20 +69,20 @@ li {
 }
 
 .description {
-    background: #d0ebd0;
+    background: var(--color-description-bg);
     margin: 20px 0;
     padding: 20px;
     border-radius: 5px;
-    border-left: 4px solid green;
+    border-left: 4px solid var(--color-blue);
 }
 
-.greenUnderline {
-    border-bottom: 3px solid green;
+.underline {
+    border-bottom: 3px solid var(--color-blue);
 }
 
-.greenTag {
-    background: darkgreen;
-    color: white;
+.tag {
+    background: var(--color-blue);
+    color: var(--color-button-text);
     padding: 4px;
     border-radius: 5px;
     font-size: 13px;
@@ -71,7 +98,7 @@ li {
 
 table {
     border-collapse: collapse;
-    border: 1px solid green;
+    border: 1px solid var(--color-border);
 }
 
 td,
@@ -81,12 +108,12 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #bcecbc;
+    background: var(--color-table-row-even);
 }
 
 hr {
     border: 0;
-    border-top: 3px solid green;
+    border-top: 1px solid var(--color-hr);
     margin-top: 25px;
 }
 
@@ -99,8 +126,8 @@ hr {
 
 button {
     cursor: pointer;
-    background: green;
-    color: white;
+    background-color: var(--color-button-bg);
+    color: var(--color-button-text);
     font-weight: bold;
     border: 0;
     padding: 10px 16px;
@@ -110,11 +137,11 @@ button {
 }
 
 button:hover {
-    background-color: darkgreen;
+    filter: brightness(1.1);
 }
 
 button:disabled {
-    background-color: #a5d6a7;
+    filter: grayscale(1);
     cursor: not-allowed;
 }
 
@@ -124,24 +151,17 @@ button:disabled {
     gap: 0;
 }
 
-.input-group input {
-    padding: 10px;
-    border: 1px solid green;
-    margin-right: 8px;
-    border-radius: 5px;
-    outline: none;
-    font-size: 15px;
-    flex: 1;
-}
-
-.input-group button {
-    border-radius: 5px;
-}
-
 input {
+    border: 1px solid var(--color-border);
+    background: var(--color-input-bg);
+    color: var(--color-text);
     padding: 10px;
-    border: 1px solid green;
     border-radius: 5px;
     outline: none;
     font-size: 15px;
+}
+
+.input-group input {
+    margin-right: 8px;
+    flex: 1;
 }
