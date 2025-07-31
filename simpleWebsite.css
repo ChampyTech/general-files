@@ -5,7 +5,6 @@
     --color-blue: #0969da;
     --color-border: #d0d7de;
     --color-input-bg: #f6f8fa;
-    --color-button-bg: #0969da;
     --color-button-text: #ffffff;
     --color-hr: #d8dee4;
     --color-selection-bg: #c8e1ff;
@@ -21,7 +20,6 @@
     --color-blue: #58a6ff;
     --color-border: #30363d;
     --color-input-bg: #161b22;
-    --color-button-bg: #0969da;
     --color-button-text: #ffffff;
     --color-hr: #21262d;
     --color-selection-bg: #1554b3;
@@ -128,7 +126,7 @@ hr {
 
 button {
     cursor: pointer;
-    background-color: var(--color-button-bg);
+    background-color: var(--color-blue);
     color: var(--color-button-text);
     font-weight: bold;
     border: 0;
@@ -169,8 +167,6 @@ input {
 }
 
 #themeToggleButton {
-    background: var(--color-button-bg);
-    color: var(--color-button-text);
     border: 0;
     padding: 10px 20px;
     border-radius: 10px;
