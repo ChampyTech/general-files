@@ -4,12 +4,12 @@ const themeToggleButton = document.getElementById('themeToggleButton');
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme === 'dark') {
     document.body.classList.add('dark');
-    themeToggleButton.textContent = '<i class="fa-solid fa-sun"></i> Light mode';
+    themeToggleButton.textContent = 'Light mode';
 };
 
 // Toggle and save to click
 themeToggleButton.addEventListener('click', () => {
     const isDark = document.body.classList.toggle('dark');
     localStorage.setItem('theme', isDark ? 'dark' : 'light');
-    themeToggleButton.textContent = isDark ? '<i class="fa-solid fa-sun"></i> Light mode' : '<i class="fa-solid fa-moon"></i> Dark mode';
+    themeToggleButton.textContent = isDark ? 'Light mode' : 'Dark mode';
 });
