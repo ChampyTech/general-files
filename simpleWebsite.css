@@ -165,11 +165,3 @@ input {
     margin-right: 8px;
     flex: 1;
 }
-
-#themeToggleButton {
-    border: 0;
-    padding: 10px 20px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-}
