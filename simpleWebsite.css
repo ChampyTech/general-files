@@ -41,6 +41,7 @@ body {
     color: var(--color-text);
     margin: 25px;
     zoom: 110%;
+    transition: 0.3s;
 }
 
 h1 {
@@ -133,7 +134,7 @@ button {
     padding: 10px 16px;
     border-radius: 5px;
     font-size: 15px;
-    transition: 0.2s;
+    transition: 0.3s;
 }
 
 button:hover {
