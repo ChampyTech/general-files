@@ -5,7 +5,6 @@
     --color-blue: #0969da;
     --color-border: #d0d7de;
     --color-input-bg: #f6f8fa;
-    --color-button-bg: #0969da;
     --color-button-text: #ffffff;
     --color-hr: #d8dee4;
     --color-selection-bg: #c8e1ff;
@@ -18,10 +17,9 @@
 .dark {
     --color-bg: #0d1117;
     --color-text: #c9d1d9;
-    --color-blue: #58a6ff;
+    --color-blue: #0969da;
     --color-border: #30363d;
     --color-input-bg: #161b22;
-    --color-button-bg: #0969da;
     --color-button-text: #ffffff;
     --color-hr: #21262d;
     --color-selection-bg: #1554b3;
@@ -128,7 +126,7 @@ hr {
 
 button {
     cursor: pointer;
-    background-color: var(--color-button-bg);
+    background-color: var(--color-blue);
     color: var(--color-button-text);
     font-weight: bold;
     border: 0;
