@@ -66,6 +66,7 @@ button:hover {
     text-align: center;
     text-decoration: none;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .shareButton:hover {
