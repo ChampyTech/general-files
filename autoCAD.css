@@ -144,16 +144,6 @@ hr {
     position: relative;
 }
 
-@media (max-width: 550px) {
-    .topnav #links {
-        display: contents;
-    }
-
-    .topnav a.icon {
-        display: none;
-    }
-}
-
 ::selection {
     background: var(--selection-color);
 }
