@@ -24,7 +24,7 @@ const successiMessaggi = [
     "Accettato! Ti consegneremo il pacchetto di benvenuto (72€ + IVA).",
     "Congratulazioni! Sei ufficialmente parte della CADassociazione.",
     "Ora sei uno di noi! Ti mandiamo anche la tessera sanitaria duplicata.",
-    "Complimenti! Ora paghi una quota annuale e più spese inutili come l'IVA. Ma ehi, stai supportando CADman. 😎",
+    "Complimenti! Ora paghi una quota annuale e più spese inutili come l'IVA. Ma ehi, stai supportando CADman 😎",
 ];
 
 const annullaMessaggi = [
